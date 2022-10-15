@@ -1,0 +1,55 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudoPrincipal{
+    display: flex;
+    flex-flow: column wrap;
+    height: 900px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodapePrincipal{
+    display: flex;
+    flex-flow: column wrap;
+    height: 200px;    
+}
+.ultimoFooter{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.ultimoFooter img{
+    margin-right: 5px;
+}
+
+.videoSobre .videoSobre-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.textoVideo{
+    text-align: center;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;  
+    flex-grow: 1; 
+}
+
+.textoVideo-lista li{
+    flex-grow: 1;
+   
+}
+
+.videoButton{
+    padding: 5px;
+      
+}

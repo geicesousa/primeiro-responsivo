@@ -1,0 +1,50 @@
+
+@media (max-width: 768px){
+
+    header{
+        flex-direction: column;
+    }
+    
+    button{
+        display: flex;
+        margin: 10px auto;
+    }
+
+    .conteinerConteudoPrincipal{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;       
+    }
+   
+    .conteudoPrincipal{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    } 
+
+    .videoSobre .videoSobre-container{
+        flex-direction: column;
+    }
+        
+    .videoSobre .video-Youtube{
+        width: 80%;
+        flex-shrink: 2;     
+    }
+
+    .rodapePrincipal{
+        height: auto;
+    }
+
+    .ultimoFooter{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 5px;  
+    }
+
+    .imagemRodape{
+        margin: 15px;
+    }
+}
